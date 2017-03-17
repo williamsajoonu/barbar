@@ -1,107 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		<title></title>
-		<meta name="keywords" content="">
-		<meta name="description" content="">
-		<link href="assets/styles/index.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="wrapper">
-			<main class="content">
-				<header class="header">
-					<img alt="logo" src="assets/images/logo.png">
-				</header>
-				<div class="preview-item">
-					<a target="_blank" href="home.html">
-						<img src="assets/media/preview/01_cleaning.jpg">
-					</a>
-					<h3>Home 1<br> MAXCLEAN</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="home-2.html">
-						<img src="assets/media/preview/02_moving.jpg">
-					</a>
-					<h3>Home 2 <br> MAXMOVE</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="about-1.html">
-						<img src="assets/media/preview/03_about-1.jpg">
-					</a>
-					<h3>About-1 <br> MAXCLEAN</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="about-2.html">
-						<img src="assets/media/preview/04_about-2.jpg">
-					</a>
-					<h3>About-2 <br> MAXMOVE</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="services-1.html">
-						<img src="assets/media/preview/05_services-1.jpg">
-					</a>
-					<h3>Services-1 <br> MAXCLEAN</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="services-2.html">
-						<img src="assets/media/preview/06_services-2.jpg">
-					</a>
-					<h3>Services-2 <br> MAXMOVE</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="services-details.html">
-						<img src="assets/media/preview/07_services-details.jpg">
-					</a>
-					<h3>Services-details <br> MAXCLEAN</h3>
-				</div>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="imagetoolbar" content="no">
+<meta name="msthemecompatible" content="no">
+<meta name="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<title id="title">Danfo Movers</title>
+<link href="assets/styles/master.css" rel="stylesheet">
+<script src="assets/scripts/libs/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<div  class="layout-theme animated-css"> 
+  <!-- Loader Landing Page-->
+  <div id="ip-container" class="ip-container"> 
+    <!-- initial header-->
+    <header class="ip-header">
+      <div class="ip-loader">
+        <div class="text-center">
+          <div class="ip-logo"> <img src="assets/images/logo.png" alt="logo"> </div>
+        </div>
+        <svg width="60px" height="60px" viewBox="0 0 80 80" class="ip-inner">
+        <path d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z" class="ip-loader-circlebg"></path>
+        <path id="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" class="ip-loader-circle"></path>
+        </svg> </div>
+    </header>
+  </div>
+  <!-- end Loader end-->
+  <div id="wrapper">
+    <div class="main">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="slogan"> <img src="assets/images/logo.png" alt="logo"></div>
+              </div>
+              <div class="col-sm-3">
+                <div class="header__social">
+                  <ul class="social-links">
+                    <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-twitter"></i></a> </li>
+                    <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-facebook"></i></a> </li>
+                    <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-google-plus"></i></a> </li>
+                    <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-linkedin"></i></a> </li>
+                    <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-pinterest-p"></i></a> </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <div class="header-contacts"><a href="tel:08034387788"><i class="icon fa fa-phone-square"></i>08034387788</a><a href="mail:info@danfomovers.com"><i class="icon fa fa-envelope-square"></i>info@danfomovers.com</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end header__top .-->
+		
+          
+      </header>
+      <!-- end header .-->
+	  
+      <div id="main-slider" data-pagination="false" data-single-item="true" data-auto-play="7000" data-transition-style="fadeUp" data-main-text-animation="true" data-after-init-delay="4000" data-after-move-delay="500" data-stop-on-hover="true" class="main-slider main-slider_mod-2 enable-owl-carousel owl-main-slider owl-carousel owl-theme">
+	  
+        <div class="item">
+          <div class="item-inner"> <img src="assets/media/main-slider/foto1.jpg" alt="img"> </div>
+          <div class="item-wrap">
+            <div class="container">
+			
+              <div style="visibility: hidden;" class="slide-title main-slider_slideInUp animated">We Provide You With<strong>A Smarter Way To Move</strong> </div>
+              <p style="visibility: hidden;" class="slide-text main-slider_fadeInLeft animated">DANFO MOVERS is a specialized Haulage company located in the city of Port Harcourt. We specialize in moving, Individual or Coporate. We're are just a phone call away if you'll like to move a property or relocate. A Trial will convice you.</p>
+              <a href="javascript:void(0);" style="visibility: hidden;" class="btn main-slider_zoomIn animated">READ MORE</a> </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-inner"> <img src="assets/media/main-slider/foto1.jpg" alt="img"> </div>
+          <div class="item-wrap">
+            <div class="container">
+              <div style="visibility: hidden;" class="slide-title main-slider_slideInUp animated">We Provide You With<strong>A Smarter Way To Move</strong> </div>
+              <p style="visibility: hidden;" class="slide-text main-slider_fadeInLeft animated">DANFO MOVERS is a specialized Haulage company located in the city of Port Harcourt. We specialize in moving, Individual or Coporate. We're are just a phone call away if you'll like to move a property or relocate. A Trial will convice you.</p>
+              <a href="javascript:void(0);" style="visibility: hidden;" class="btn main-slider_zoomIn animated">READ MORE</a> </div>
+          </div>
+        </div>
+      </div>
+      <div data-wow-duration="2s" class="section-area wow bounceInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="list-pennant">
+                <li class="list-pennant__item">
+                  <div class="icon flaticon-logistics3"></div>
+                  <div class="list-pennant__title">We Move Faster</div>
+                  <p class="list-pennant__text">We are just a phone call away, give us a trial and see.</p>
+                </li>
+                <li class="list-pennant__item">
+                  <div class="icon flaticon-packages2"></div>
+                  <div class="list-pennant__title">Use Best Equipments</div>
+                  <p class="list-pennant__text">We are well equipped to provide our clients with world class services.</p>
+                </li>
+                <li class="list-pennant__item">
+                  <div class="icon flaticon-delivery30"></div>
+                  <div class="list-pennant__title">Safety & Experience</div>
+                  <p class="list-pennant__text">Our services are done with well trained staff in safety and security</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-wow-duration="2s" data-wow-delay="1s" class="section-area section_mod-4 wow bounceInLeft">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h2 class="ui-subtitle-block">We provide you with excellent services in handling your valuable goods, one-stop solution for your all moving needs.</h2>
+              <div class="ui-title-block">WE WORK NON-STOP & ROUND THE CLOCK</div>
+              <div class="border-color"></div>
+              <p>We offer services from moving your home or office from across the street to intercity, from intrastate to interstate, both local and national level at a very affordable price, we're just a phone call away. Our clients will be there to supervise the whole packing process. We are devoted to exceed our clients expectation.</p>
+              <a href="javascript:void(0);"
+									class="btn btn-default"></a> </div>
+          </div>
+        </div>
+      </div>
+      <section data-wow-duration="2s" class="section-area section_form-order wow bounceInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <form id="contactForm" class="form-order form-order_mod-2">
+              
+
+<script src="mail/jqBootstrapValidation.js"></script> 
+<script src="mail/contact_me.js"></script>
+
                 
-                <div class="preview-item">
-					<a target="_blank" href="pricing-table.html">
-						<img src="assets/media/preview/13_pricing-table.jpg">
-					</a>
-					<h3>Pricing-table <br> MAXCLEAN</h3>
-				</div>
+                <h2 class="form-order__title"><i class="icon flaticon-package36"></i>
+                  <span  class="border-color"></span>
+                  REQUEST A FREE<strong>ESTIMATE</strong></h2>
+                <div class="form-order__inner">
+                
+                <div id="success"></div>
                 
                 
+                  <div class="input-group">
+                    <input type="text" name="user-name" id="user-name" placeholder="Full Name" required class="form-control">
+                  </div>
+                  <div class="input-group">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Address" required class="form-control">
+                  </div>
+                  <div class="input-group">
+                    <input type="tel" name="user-phone" id="user-phone" placeholder="Phone No." class="form-control">
+                  </div>
+                  <div class="input-group">
+                  
+                    <input type="text" name="user-from" id="user-from" placeholder="MOVING FROM"  class="form-control">
+                  </div>
+                  <div class="input-group">
+               
+                    <input type="text" name="user-to" id="user-to" placeholder="MOVING TO"  class="form-control">
+                  </div>
+                  <div class="input-group input-group_date">
                 
+                    <input type="text" name="user-date" id="user-date" placeholder="MOVING EST. DATE"   class="form-control datetimepicker">
+                    <div class="icon fa fa-calendar"></div>
+                  </div>
+                  <div class="input-group input-group_full_width">
+                    <textarea id="user-message" placeholder="Message" required class="form-control" rows="4"></textarea>
+                  </div>
+                  <button class="btn btn-primary">GET QUICK ESTIMATe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-area section_slider-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="ui-title-block">BETTER MOVING SERVICES</h2>
+              <div class="ui-subtitle-block"><strong>WHAT WE OFFER</strong> </div>
+              <div class="border-color"></div>
+              <p class="description">We offer professional service in Home and Office relocation. We also offer packing and unpacking, loading and unloading service, goods transportation service at a very affordable price.</p>
+              <ul class="slider-services slider-services_mod-2">
+                <li data-wow-duration="2s" data-wow-delay=".5s" class="slide wow bounceInUp"> <img src="assets/media/haulage.jpg" alt="Foto" class="img-responsive">
+                  <div class="slider-services__info">
+                    <div class="slider-services__title">Haulage</div>
+                    <div class="slider-services__text">PROFESSIONAL CLEANING SERVICES YOU TRUST</div>
+                  </div>
+                </li>
+                <li data-wow-duration="2s" data-wow-delay="1s" class="slide wow bounceInUp"> <img src="assets/media/boxing.jpg" alt="Foto"  class="img-responsive">
+                  <div class="slider-services__info">
+                    <div class="slider-services__title">Boxing & Parking</div>
+                    <div class="slider-services__text">PROFESSIONAL CLEANING SERVICES YOU TRUST</div>
+                  </div>
+                </li>
+                <li data-wow-duration="2s" data-wow-delay="1.5s" class="slide wow bounceInUp"> <img src="assets/media/interstate.jpg" alt="Foto"  class="img-responsive">
+                  <div class="slider-services__info">
+                    <div class="slider-services__title">Interstate Moves</div>
+                    <div class="slider-services__text">PROFESSIONAL CLEANING SERVICES YOU TRUST</div>
+                  </div>
+                </li>
+               
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-wow-duration="2s" class="section-area section_list-scheme triagl triagl-top wow bounceInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="ui-title-block">WANT TO MOVE WITH US?</h2>
+              <div class="ui-subtitle-block"><strong>HOW WE MAKE IT HAPPEN</strong> </div>
+              <div class="border-color border-color_center"></div>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="list-scheme">
+              <li class="list-scheme__item"><a href="javascript:void(0);" class="list-scheme__link"><i class="icon flaticon-clipboard52 helper"></i><span class="list-scheme__number">1</span>
+                <div class="list-scheme__title">YOU BOOK<span class="br">AN ORDER WITH US</span></div>
+                </a> <span
+										class="arrow"><i class="arrow__inner fa fa-angle-right"></i> </span> </li>
+              <li class="list-scheme__item"><a href="javascript:void(0);" class="list-scheme__link"><i class="icon flaticon-delivery30 helper"></i><span class="list-scheme__number">2</span>
+                <div class="list-scheme__title">WE COME & PACK<span class="br">YOUR HOME CONTENTS</span></div>
+                </a> <span
+										class="arrow"><i class="arrow__inner fa fa-angle-right"></i> </span> </li>
+              <li class="list-scheme__item"><a href="javascript:void(0);" class="list-scheme__link"><i class="icon flaticon-logistics3 helper"></i><span class="list-scheme__number">3</span>
+                <div class="list-scheme__title">WE DRIVE & DELIVER TO<span class="br">YOUR NEW PLACE</span></div>
+                </a> <span
+										class="arrow"><i class="arrow__inner fa fa-angle-right"></i> </span> </li>
+              <li class="list-scheme__item"><a href="javascript:void(0);" class="list-scheme__link"><i class="icon flaticon-logisticsdelivery helper"></i><span class="list-scheme__number">4</span>
+                <div class="list-scheme__title">YOU SATISFIED -<span class="br">WE HAPPY !!!</span></div>
+                </a> </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div data-wow-duration="2s" class="section-area section_block-contacts section_block-contacts_mod-b triagl triagl_mod-c triagl-top wow bounceInUp">
+        <div class="container">
+          <div class="block-contacts">
+            <div class="row">
+              <div class="col-lg-5 col-sm-4 col-xs-12 text-left">
+                <div class="block-contacts__item">
+                  <div class="block-contacts__title"><i class="icon fa fa-clock-o"></i>MONDAY TO SATURDAY</div>
+                  <div class="block-contacts__text">6:00 AM to 7:00 PM</div>
+                </div>
+                <div class="block-contacts__item">
+                  <div class="block-contacts__title">SUNDAY</div>
+                  <div class="block-contacts__text">We Take Some Rest</div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-4 col-xs-12">
+                <ul class="social-links">
+                  <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-twitter"></i></a> </li>
+                  <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-facebook"></i></a> </li>
+                  <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-google-plus"></i></a> </li>
+                  <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-linkedin"></i></a> </li>
+                  <li class="social-links__item"><a class="social-links__link"><i class="icon fa fa-instagram"></i></a> </li>
+                </ul>
+              </div>
+              <div class="col-lg-5 col-sm-4 col-xs-12 text-right">
+                <div class="block-contacts__phone">+ (234) 8034387788<i class="icon fa fa-phone-square"></i> </div>
+                <div class="block-contacts__text">Ask Questions or Need a Free Estimate?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="ui-title-inner">ABOUT DANFO MOVERS</h3>
+              <div class="border-color"></div>
+              <p>DANFO MOVERS is a specialized Haulage company located in the city of Port Harcourt. We specialize in moving, Individual or Coporate. We're are just a phone call away if you'll like to move a property or relocate. A Trial will convice you.</p>
+             
+            </div>
+            <div class="col-md-4">
+              <h3 class="ui-title-inner">OUR SERVICES</h3>
+              <div class="border-color"></div>
+              <ul class="list-mark">
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Haulage</a> </li>
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Local Moving</a> </li>
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Interstae Moving</a> </li>
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Commercial Moving</a> </li>
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Haulage Consultancy</a> </li>
+                <li class="list-mark__item"><a href="javascript:void(0);" class="list-mark__link"><span class="icon"></span>Special Moves/delivery</a> </li>
                 
-				<div class="preview-item">
-					<a target="_blank" href="blog-1.html">
-						<img src="assets/media/preview/08_blog-1.jpg">
-					</a>
-					<h3>Blog-1 <br> MAXCLEAN</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="blog-2.html">
-						<img src="assets/media/preview/09_blog-2-grid.jpg">
-					</a>
-					<h3>Blog-2 <br> MAXMOVE</h3>
-				</div>
-				<div class="preview-item">
-					<a target="_blank" href="post-details.html">
-						<img src="assets/media/preview/10_post-details.jpg">
-					</a>
-					<h3>Post-details <br> MAXCLEAN</h3>
-				</div>
-                
-                
-                <div class="preview-item">
-					<a target="_blank" href="contact.html">
-						<img src="assets/media/preview/11_contact.jpg">
-					</a>
-					<h3>Contact <br> MAXCLEAN</h3>
-				</div>
-				
-				<div class="preview-item">
-					<a target="_blank" href="404.html">
-						<img src="assets/media/preview/12_404.jpg">
-					</a>
-					<h3>404 <br> MAXCLEAN</h3>
-				</div>
-				
-			</main>
-		</div>
-	</body>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3 class="ui-title-inner">CONTACT US</h3>
+              <div class="border-color"></div>
+              <div class="footer__title-block">Office Address</div>
+              <p>7, Presidential Housing Estate, <br>
+                Rumoula Port-Harcourt, River State</p>
+              <div class="footer__title-block">Phone</div>
+              <p>08034387788 <br>
+                08132839266 </p>
+              <div class="footer__title-block">Email</div>
+              <p><a href="mailto:info@danfomovers.com" class="footer__mail">info@danfomovers.com</a><a href="mailto:danfomovers@gmail.com" class="footer__mail">danfomovers@gmail.com</a> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="copyright"><span>© Copyrights 2017<strong> DANFO MOVERS</strong></span><span> All Rights Reserved.</span><span> Designed </i> by<a href="http://facebook.com/"><strong>360WEB WORKS</strong></a></span> </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="assets/scripts/libs/jquery-migrate-1.2.1.js?1436763125319"></script> 
+<script src="assets/scripts/libs/modernizr.custom.js?1436763125319"></script> 
+<!-- SCRIPTS--> 
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script> 
+<script src="assets/plugins/isotope/jquery.isotope.min.js"></script> 
+<script src="assets/scripts/libs/waypoints.min.js"></script> 
+<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="assets/plugins/datetimepicker/jquery.datetimepicker.js"></script> 
+<script src="assets/plugins/jelect/jquery.jelect.js"></script> 
+<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script> 
+<!-- Loader--> 
+<script src="assets/plugins/loader/js/classie.js"></script> 
+<script src="assets/plugins/loader/js/pathLoader.js"></script> 
+<script src="assets/plugins/loader/js/main.js"></script> 
+<script src="assets/scripts/libs/classie.js"></script> 
+<!-- THEME--> 
+<script src="assets/scripts/libs/cssua.min.js"></script> 
+<script src="assets/scripts/libs/wow.min.js"></script> 
+<script src="assets/scripts/common.js?1436763125319"></script>
+</body>
 </html>
